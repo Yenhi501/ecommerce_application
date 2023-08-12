@@ -6,8 +6,7 @@
             background-color: $clr-white;
             overflow: hidden;
             border-radius: 6px;
-            box-shadow: rgba(99, 99, 99, 0.06) 0px 2px 8px 0px;
-
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
             &:hover{
                 outline: 2px solid lighten($clr-yellow, 10%);
                 outline-offset: 1px;

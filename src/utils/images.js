@@ -1,4 +1,4 @@
-import banner_1 from "../assets/images/top-banner.jpg";
+import banner_1 from "../assets/images/banner-top.jpg";
 import banner_2 from "../assets/images/banner-2.jpg";
 import banner_3 from "../assets/images/banner-3.jpg";
 import no_image from "../assets/images/no_image.png";

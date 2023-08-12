@@ -1,10 +1,17 @@
-import React from "react";
-import PropTypes from "prop-types";
 import "../../styles/Title.scss";
-const Title = (props) => {
-  return <div>Title</div>;
-};
+import PropTypes from 'prop-types';
 
-Title.propTypes = {};
+const Title = ({title}) => {
+  return (
+    <div className='sc-title text-center'>
+        <h3 className='text-capitalize'>{title}</h3>
+        
+    </div>
+  )
+}
 
 export default Title;
+
+Title.propTypes = {
+  title: PropTypes.string
+}

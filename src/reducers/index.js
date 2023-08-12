@@ -5,14 +5,13 @@ import productReducer from "./productReducer";
 import categoryReducer from "./categoryReducer";
 import searchReducer from "./searchReducer";
 
-//creating a single rootEeducer object
 const rootReducer = {
-  auth: authReducer,
-  basket: basketReducer,
-  filter: filterReducer,
-  product: productReducer,
-  category: categoryReducer,
-  search: searchReducer,
+    auth: authReducer,
+    basket: basketReducer,
+    filter: filterReducer,
+    product: productReducer,
+    category: categoryReducer,
+    search: searchReducer,
 };
 
 export default rootReducer;

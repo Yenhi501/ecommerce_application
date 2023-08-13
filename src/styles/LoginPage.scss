@@ -8,11 +8,14 @@
         margin-right: auto;
         margin-left: auto;
         border-radius: 6px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 
         .login-title{
-            color: $clr-dark;
+            color: #000;
             text-align: center;
             margin-bottom: 20px;
+            font-weight: 500;
+
         }
 
         .form-element{
